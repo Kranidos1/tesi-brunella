@@ -1,13 +1,201 @@
 // ===== BINGE THERAPY - JAVASCRIPT =====
 
+// Variabili globali
+let seriesData = [];
+let categories = [];
+
 document.addEventListener('DOMContentLoaded', function() {
-    // Inizializza tutte le funzionalità
-    initScrollToTop();
-    initSmoothScroll();
-    initAnimations();
-    initNavbarScroll();
-    initLoadingAnimations();
+    // Carica i dati delle serie e inizializza il sito
+    loadSeriesData().then(() => {
+        initScrollToTop();
+        initSmoothScroll();
+        initAnimations();
+        initNavbarScroll();
+        initLoadingAnimations();
+        initHoverEffects();
+        initMobileMenu();
+        initLazyLoading();
+        initPerformanceOptimizations();
+        initAccessibility();
+        initErrorHandling();
+        
+        console.log('🎬 Binge Therapy - Sito caricato con successo! 💖');
+        
+        // Aggiungi statistiche dinamiche
+        updateStatistics();
+    });
 });
+
+// ===== STATISTICHE DINAMICHE =====
+function updateStatistics() {
+    const totalSeries = seriesData.length;
+    const totalCategories = categories.length;
+    
+    // Trova la categoria con più serie
+    const mostPopularCategory = categories.reduce((prev, current) => 
+        (prev.series.length > current.series.length) ? prev : current
+    );
+    
+    // Trova le piattaforme più popolari
+    const platformCount = {};
+    seriesData.forEach(series => {
+        platformCount[series.piattaforma] = (platformCount[series.piattaforma] || 0) + 1;
+    });
+    
+    const topPlatform = Object.entries(platformCount)
+        .sort(([,a], [,b]) => b - a)[0];
+    
+    console.log(`📊 Statistiche Binge Therapy:
+    - Serie totali: ${totalSeries}
+    - Categorie: ${totalCategories}
+    - Categoria più popolare: ${mostPopularCategory.categoria} (${mostPopularCategory.series.length} serie)
+    - Piattaforma più presente: ${topPlatform[0]} (${topPlatform[1]} serie)`);
+}
+
+// ===== CARICAMENTO DATI JSON =====
+async function loadSeriesData() {
+    try {
+        const response = await fetch('categorie.json');
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        seriesData = await response.json();
+        
+        // Organizza le serie per categoria
+        organizeSeriesByCategory();
+        
+        // Genera l'HTML delle categorie
+        generateCategoriesHTML();
+        
+    } catch (error) {
+        console.error('Errore nel caricamento dei dati:', error);
+        showNotification('❌ Errore nel caricamento delle serie. Riprova più tardi.');
+    }
+}
+
+// ===== ORGANIZZAZIONE SERIE PER CATEGORIA =====
+function organizeSeriesByCategory() {
+    const categoryMap = new Map();
+    
+    seriesData.forEach(series => {
+        if (!categoryMap.has(series.categoria)) {
+            categoryMap.set(series.categoria, []);
+        }
+        categoryMap.get(series.categoria).push(series);
+    });
+    
+    // Converti in array e ordina per numero di serie
+    categories = Array.from(categoryMap.entries())
+        .map(([categoria, series]) => ({ categoria, series }))
+        .sort((a, b) => b.series.length - a.series.length);
+}
+
+// ===== GENERAZIONE HTML CATEGORIE =====
+function generateCategoriesHTML() {
+    const container = document.getElementById('categorie-container');
+    if (!container) return;
+    
+    const categoryEmojis = {
+        'I teen drama da non perdere': '🎓',
+        'Prepara i fazzoletti': '😭',
+        'Fiction italiana': '🇮🇹',
+        'Se vuoi divertirti': '🤣',
+        'Un po\'d\'azione': '💣',
+        'Tornare bambini': '👶'
+    };
+    
+    categories.forEach(categoryData => {
+        const categoryCard = createCategoryCard(categoryData, categoryEmojis[categoryData.categoria] || '📺');
+        container.appendChild(categoryCard);
+    });
+}
+
+// ===== CREAZIONE CARD CATEGORIA =====
+function createCategoryCard(categoryData, emoji) {
+    const categoryDiv = document.createElement('div');
+    categoryDiv.className = 'category-card mb-5';
+    
+    const titleRow = document.createElement('div');
+    titleRow.className = 'row';
+    titleRow.innerHTML = `
+        <div class="col-12">
+            <h3 class="category-title">
+                <span class="category-emoji">${emoji}</span> ${categoryData.categoria}
+            </h3>
+        </div>
+    `;
+    
+    const seriesRow = document.createElement('div');
+    seriesRow.className = 'row g-4';
+    
+    // Aggiungi le serie alla categoria
+    categoryData.series.forEach(series => {
+        const seriesCard = createSeriesCard(series);
+        seriesRow.appendChild(seriesCard);
+    });
+    
+    categoryDiv.appendChild(titleRow);
+    categoryDiv.appendChild(seriesRow);
+    
+    return categoryDiv;
+}
+
+// ===== CREAZIONE CARD SERIE =====
+function createSeriesCard(series) {
+    const colDiv = document.createElement('div');
+    colDiv.className = 'col-md-6 col-lg-4';
+    
+    // Genera un'immagine placeholder basata sul titolo
+    const placeholderImage = generatePlaceholderImage(series.titolo);
+    
+    colDiv.innerHTML = `
+        <div class="series-card">
+            <div class="series-image">
+                <img src="${placeholderImage}" alt="${series.titolo}" class="img-fluid" loading="lazy">
+            </div>
+            <div class="series-content">
+                <h4>${series.titolo}</h4>
+                <p>${series.descrizione}</p>
+                <span class="platform">${series.piattaforma}</span>
+            </div>
+        </div>
+    `;
+    
+    return colDiv;
+}
+
+// ===== GENERAZIONE IMMAGINI PLACEHOLDER =====
+function generatePlaceholderImage(title) {
+    // Crea un'immagine SVG personalizzata basata sul titolo
+    const colors = ['#ffb3d1', '#c2185b', '#ffe6f0', '#8e0038'];
+    const color = colors[Math.floor(Math.random() * colors.length)];
+    
+    const svg = `
+        <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+            <rect width="100%" height="100%" fill="${color}" opacity="0.8"/>
+            <text x="50%" y="50%" font-family="Arial, sans-serif" font-size="16" 
+                  fill="white" text-anchor="middle" dominant-baseline="middle">
+                ${title}
+            </text>
+            <text x="50%" y="70%" font-family="Arial, sans-serif" font-size="12" 
+                  fill="white" text-anchor="middle" dominant-baseline="middle">
+                📺 Serie TV
+            </text>
+        </svg>
+    `;
+    
+    return `data:image/svg+xml;base64,${btoa(svg)}`;
+}
+
+// ===== RICERCA IMMAGINI TMDb (OPZIONALE) =====
+async function searchTMDBImage(title) {
+    // Nota: Per usare TMDb API, dovresti registrarti e ottenere una API key
+    // const API_KEY = 'your_tmdb_api_key_here';
+    // const url = `https://api.themoviedb.org/3/search/tv?api_key=${API_KEY}&query=${encodeURIComponent(title)}&language=it-IT`;
+    
+    // Per ora, ritorniamo il placeholder
+    return generatePlaceholderImage(title);
+}
 
 // ===== SCROLL TO TOP BUTTON =====
 function initScrollToTop() {
@@ -117,46 +305,35 @@ function initLoadingAnimations() {
 
 // ===== DOWNLOAD PDF FUNCTION =====
 function downloadPDF() {
-    // Crea un messaggio di conferma
-    const message = `
-🎓 BINGE THERAPY - La guida di Brunella 🎓
-
-📺 Le mie categorie preferite:
-
-🎓 I teen drama da non perdere
-- Gossip Girl (Netflix)
-- The Vampire Diaries (Prime Video)
-- Riverdale (Netflix)
-
-😭 Prepara i fazzoletti
-- This Is Us (Disney+)
-- A Million Little Things (Prime Video)
-- The Good Doctor (Disney+)
-
-🇮🇹 Fiction italiana
-- Mare Fuori (RaiPlay)
-- Baby (Netflix)
-- Suburra (Netflix)
-
-🤣 Se vuoi divertirti
-- Brooklyn Nine-Nine (Netflix)
-- The Office (Prime Video)
-- Parks and Recreation (Prime Video)
-
-💣 Un po' d'azione
-- Stranger Things (Netflix)
-- The Boys (Prime Video)
-- Wednesday (Netflix)
-
-👶 Per tornare bambini
-- Avatar: The Last Airbender (Netflix)
-- The Mandalorian (Disney+)
-- The Good Place (Netflix)
-
-💖 Con amore, Brunella 💖
-
-Scansiona il QR code per visitare il sito completo!
-    `;
+    if (seriesData.length === 0) {
+        showNotification('❌ Dati non ancora caricati. Riprova tra un momento.');
+        return;
+    }
+    
+    // Crea un messaggio dinamico basato sui dati JSON
+    let message = `🎓 BINGE THERAPY - La guida di Brunella 🎓\n\n📺 Le mie categorie preferite:\n\n`;
+    
+    const categoryEmojis = {
+        'I teen drama da non perdere': '🎓',
+        'Prepara i fazzoletti': '😭',
+        'Fiction italiana': '🇮🇹',
+        'Se vuoi divertirti': '🤣',
+        'Un po\'d\'azione': '💣',
+        'Tornare bambini': '👶'
+    };
+    
+    categories.forEach(categoryData => {
+        const emoji = categoryEmojis[categoryData.categoria] || '📺';
+        message += `${emoji} ${categoryData.categoria}\n`;
+        
+        categoryData.series.forEach(series => {
+            message += `- ${series.titolo} (${series.piattaforma})\n`;
+        });
+        
+        message += '\n';
+    });
+    
+    message += `💖 Con amore, Brunella 💖\n\nScansiona il QR code per visitare il sito completo!`;
     
     // Crea un blob con il contenuto
     const blob = new Blob([message], { type: 'text/plain' });

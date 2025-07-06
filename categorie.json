@@ -1,0 +1,494 @@
+[
+  {
+    "titolo": "The OC",
+    "descrizione": "Sole, drammi e feste in piscina: l'ABC del teen drama.",
+    "categoria": "I teen drama da non perdere",
+    "piattaforma": "Amazon Prime Video"
+  },
+  {
+    "titolo": "One Tree Hill",
+    "descrizione": "Basket, musica e sentimenti che crescono con te.",
+    "categoria": "I teen drama da non perdere",
+    "piattaforma": "Amazon Prime Video"
+  },
+  {
+    "titolo": "Skam Italia",
+    "descrizione": "Adolescenza vera, cruda, italiana e potentissima.",
+    "categoria": "I teen drama da non perdere",
+    "piattaforma": "Netflix"
+  },
+  {
+    "titolo": "Ginny & Georgia",
+    "descrizione": "Una madre giovane e una figlia acuta: tra drammi e sorrisi.",
+    "categoria": "I teen drama da non perdere",
+    "piattaforma": "Netflix"
+  },
+  {
+    "titolo": "Young Royals",
+    "descrizione": "La monarchia svedese come non l'avete mai vista.",
+    "categoria": "I teen drama da non perdere",
+    "piattaforma": "Netflix"
+  },
+  {
+    "titolo": "L'estate nei tuoi occhi",
+    "descrizione": "Amori e scoperte sotto il sole d'estate.",
+    "categoria": "I teen drama da non perdere",
+    "piattaforma": "Netflix"
+  },
+  {
+    "titolo": "The Vampire Diaries",
+    "descrizione": "Amori, vampiri e segreti nell'immortale Mystic Falls.",
+    "categoria": "I teen drama da non perdere",
+    "piattaforma": "Disney+"
+  },
+  {
+    "titolo": "Dawson's Creek",
+    "descrizione": "Il teen drama che ha fatto storia.",
+    "categoria": "I teen drama da non perdere",
+    "piattaforma": "Disney+"
+  },
+  {
+    "titolo": "Bridgerton",
+    "descrizione": "Amore e intrighi nell'alta società londinese del passato.",
+    "categoria": "I teen drama da non perdere",
+    "piattaforma": "Netflix"
+  },
+  {
+    "titolo": "Elite",
+    "descrizione": "Un liceo esclusivo dove il dramma è sempre dietro l'angolo.",
+    "categoria": "I teen drama da non perdere",
+    "piattaforma": "Netflix"
+  },
+  {
+    "titolo": "My Lady Jane",
+    "descrizione": "Una storia d'amore alternativa nella Londra del '500.",
+    "categoria": "I teen drama da non perdere",
+    "piattaforma": "Netflix"
+  },
+  {
+    "titolo": "Prisma",
+    "descrizione": "Identità di genere e adolescenza in una serie italiana rivoluzionaria.",
+    "categoria": "I teen drama da non perdere",
+    "piattaforma": "Netflix"
+  },
+  {
+    "titolo": "Legacies",
+    "descrizione": "I figli dei vampiri più famosi della TV crescono e si innamorano.",
+    "categoria": "I teen drama da non perdere",
+    "piattaforma": "Disney+"
+  },
+  {
+    "titolo": "Queen Charlotte",
+    "descrizione": "La storia d'amore che ha cambiato il mondo di Bridgerton.",
+    "categoria": "I teen drama da non perdere",
+    "piattaforma": "Netflix"
+  },
+  {
+    "titolo": "Fate: The Winx Saga",
+    "descrizione": "Fate, amicizia e poteri magici in un college speciale.",
+    "categoria": "I teen drama da non perdere",
+    "piattaforma": "Netflix"
+  },
+  {
+    "titolo": "First Kill",
+    "descrizione": "Una vampira e una cacciatrice di vampiri si innamorano.",
+    "categoria": "I teen drama da non perdere",
+    "piattaforma": "Netflix"
+  },
+  {
+    "titolo": "Teen Wolf",
+    "descrizione": "Lupi mannari, lacrime e amicizia in una serie cult.",
+    "categoria": "I teen drama da non perdere",
+    "piattaforma": "Disney+"
+  },
+  {
+    "titolo": "The End of the F***ing World",
+    "descrizione": "Due adolescenti problematici in fuga verso l'amore.",
+    "categoria": "I teen drama da non perdere",
+    "piattaforma": "Netflix"
+  },
+  {
+    "titolo": "Pretty Little Liars",
+    "descrizione": "Segreti, bugie e misteri in una cittadina apparentemente perfetta.",
+    "categoria": "I teen drama da non perdere",
+    "piattaforma": "Amazon Prime Video"
+  },
+  {
+    "titolo": "This Is Us",
+    "descrizione": "Ogni episodio è un'emozione che ti colpisce dritto al cuore.",
+    "categoria": "Prepara i fazzoletti",
+    "piattaforma": "Disney+"
+  },
+  {
+    "titolo": "Parenthood",
+    "descrizione": "Una famiglia imperfetta ma incredibilmente reale.",
+    "categoria": "Prepara i fazzoletti",
+    "piattaforma": "Disney+"
+  },
+  {
+    "titolo": "L'amica geniale",
+    "descrizione": "Napoli, amicizia e crescita: un racconto struggente e potente.",
+    "categoria": "Prepara i fazzoletti",
+    "piattaforma": "HBO Max"
+  },
+  {
+    "titolo": "Braccialetti Rossi",
+    "descrizione": "Coraggio, amicizia e dolore tra le corsie di un ospedale.",
+    "categoria": "Prepara i fazzoletti",
+    "piattaforma": "Disney+"
+  },
+  {
+    "titolo": "Tutto chiede salvezza",
+    "descrizione": "Un viaggio toccante tra fragilità e umanità.",
+    "categoria": "Prepara i fazzoletti",
+    "piattaforma": "Netflix"
+  },
+  {
+    "titolo": "L'estate in cui imparammo a volare",
+    "descrizione": "Amicizia tra donne e vite che si incrociano nel tempo.",
+    "categoria": "Prepara i fazzoletti",
+    "piattaforma": "Netflix"
+  },
+  {
+    "titolo": "Nobody Wants This",
+    "descrizione": "Un dramma moderno sulla pressione sociale e l'identità.",
+    "categoria": "Prepara i fazzoletti",
+    "piattaforma": "Netflix"
+  },
+  {
+    "titolo": "Adolescence",
+    "descrizione": "Un viaggio profondo e reale nella crescita adolescenziale.",
+    "categoria": "Prepara i fazzoletti",
+    "piattaforma": "Netflix"
+  },
+  {
+    "titolo": "Euphoria",
+    "descrizione": "Adolescenza cruda, droghe, sesso e la ricerca di se stessi.",
+    "categoria": "Prepara i fazzoletti",
+    "piattaforma": "Disney+"
+  },
+  {
+    "titolo": "Maid",
+    "descrizione": "Una madre single che lotta per ricostruire la sua vita.",
+    "categoria": "Prepara i fazzoletti",
+    "piattaforma": "Netflix"
+  },
+  {
+    "titolo": "La vita bugiarda degli adulti",
+    "descrizione": "Una ragazza che scopre i segreti nascosti della sua famiglia.",
+    "categoria": "Prepara i fazzoletti",
+    "piattaforma": "Raiplay"
+  },
+  {
+    "titolo": "Soundtrack",
+    "descrizione": "Amore e musica si intrecciano in una Los Angeles romantica.",
+    "categoria": "Prepara i fazzoletti",
+    "piattaforma": "Netflix"
+  },
+  {
+    "titolo": "Mare Fuori",
+    "descrizione": "Storie di ragazzi al limite, tra sogni, sbagli e redenzione.",
+    "categoria": "Fiction italiana",
+    "piattaforma": "Netflix"
+  },
+  {
+    "titolo": "Un Professore",
+    "descrizione": "Un insegnante fuori dagli schemi e studenti tutti da scoprire.",
+    "categoria": "Fiction italiana",
+    "piattaforma": "Raiplay"
+  },
+  {
+    "titolo": "Nero a Metà",
+    "descrizione": "Un poliziesco romano con ritmo, emozione e uno sguardo nuovo.",
+    "categoria": "Fiction italiana",
+    "piattaforma": "Raiplay"
+  },
+  {
+    "titolo": "Commissario Ricciardi",
+    "descrizione": "Un commissario che sente le ultime parole dei morti.",
+    "categoria": "Fiction italiana",
+    "piattaforma": "Raiplay"
+  },
+  {
+    "titolo": "Miss Fallaci",
+    "descrizione": "La storia di una delle più grandi giornaliste italiane.",
+    "categoria": "Fiction italiana",
+    "piattaforma": "Raiplay"
+  },
+  {
+    "titolo": "I Leoni di Sicilia",
+    "descrizione": "Una dinastia di commercianti nella Sicilia dell'Ottocento.",
+    "categoria": "Fiction italiana",
+    "piattaforma": "Raiplay"
+  },
+  {
+    "titolo": "Lidia Poët",
+    "descrizione": "La prima donna avvocato d'Italia tra misteri e femminismo.",
+    "categoria": "Fiction italiana",
+    "piattaforma": "Netflix"
+  },
+  {
+    "titolo": "Generazione 56k",
+    "descrizione": "Amore e nostalgia tra passato e presente.",
+    "categoria": "Fiction italiana",
+    "piattaforma": "Netflix"
+  },
+  {
+    "titolo": "1992",
+    "descrizione": "Politica, potere e scandali nella Milano di Tangentopoli.",
+    "categoria": "Fiction italiana",
+    "piattaforma": "Raiplay"
+  },
+  {
+    "titolo": "Hanno ucciso l'uomo ragno",
+    "descrizione": "Un viaggio musicale e nostalgico tra gli 883 e l'Italia anni '90.",
+    "categoria": "Fiction italiana",
+    "piattaforma": "Raiplay"
+  },
+  {
+    "titolo": "A casa tutti bene",
+    "descrizione": "Una famiglia italiana riunita che nasconde segreti e tensioni.",
+    "categoria": "Fiction italiana",
+    "piattaforma": "Raiplay"
+  },
+  {
+    "titolo": "Le fate ignoranti",
+    "descrizione": "Una commedia romantica moderna e inclusiva.",
+    "categoria": "Fiction italiana",
+    "piattaforma": "Netflix"
+  },
+  {
+    "titolo": "Luna Park",
+    "descrizione": "Un thriller psicologico ambientato in un parco divertimenti.",
+    "categoria": "Fiction italiana",
+    "piattaforma": "Raiplay"
+  },
+  {
+    "titolo": "I Medici",
+    "descrizione": "La storia della famiglia Medici e del Rinascimento fiorentino.",
+    "categoria": "Fiction italiana",
+    "piattaforma": "Raiplay"
+  },
+  {
+    "titolo": "Made in Italy",
+    "descrizione": "La moda italiana degli anni '70 raccontata con passione.",
+    "categoria": "Fiction italiana",
+    "piattaforma": "Raiplay"
+  },
+  {
+    "titolo": "Doc – Nelle tue mani",
+    "descrizione": "Un medico che perde la memoria ma non la passione per aiutare.",
+    "categoria": "Fiction italiana",
+    "piattaforma": "Disney+"
+  },
+  {
+    "titolo": "Baby",
+    "descrizione": "Roma, liceo, e le vite segrete di adolescenti che crescono troppo in fretta.",
+    "categoria": "Fiction italiana",
+    "piattaforma": "Netflix"
+  },
+  {
+    "titolo": "I Cesaroni",
+    "descrizione": "Una famiglia allargata tra risate, amore e vita quotidiana.",
+    "categoria": "Fiction italiana",
+    "piattaforma": "Raiplay"
+  },
+  {
+    "titolo": "Friends",
+    "descrizione": "La comfort series per eccellenza: ti sembrerà di essere al Central Perk con loro.",
+    "categoria": "Se vuoi divertirti",
+    "piattaforma": "Disney+"
+  },
+  {
+    "titolo": "New Girl",
+    "descrizione": "Jess è la coinquilina che tutti vorremmo: stramba ma adorabile.",
+    "categoria": "Se vuoi divertirti",
+    "piattaforma": "Disney+"
+  },
+  {
+    "titolo": "Emily in Paris",
+    "descrizione": "Moda, Parigi e situazioni assurde: perfetta per staccare.",
+    "categoria": "Se vuoi divertirti",
+    "piattaforma": "Netflix"
+  },
+  {
+    "titolo": "Glee",
+    "descrizione": "Musica, inclusione e una dose di dramma adolescenziale.",
+    "categoria": "Se vuoi divertirti",
+    "piattaforma": "Disney+"
+  },
+  {
+    "titolo": "Jane the Virgin",
+    "descrizione": "Telenovela ironica, moderna e tenerissima.",
+    "categoria": "Se vuoi divertirti",
+    "piattaforma": "Amazon Prime Video"
+  },
+  {
+    "titolo": "Non ho mai...",
+    "descrizione": "La crescita di una ragazza indiana americana tra caos e cuore.",
+    "categoria": "Se vuoi divertirti",
+    "piattaforma": "Netflix"
+  },
+  {
+    "titolo": "How I Met Your Mother",
+    "descrizione": "Un viaggio nella New York dell'amicizia e dell'amore.",
+    "categoria": "Se vuoi divertirti",
+    "piattaforma": "Disney+"
+  },
+  {
+    "titolo": "Brooklyn Nine-Nine",
+    "descrizione": "Un distretto di polizia dove si ride, si ride tanto.",
+    "categoria": "Se vuoi divertirti",
+    "piattaforma": "Disney+"
+  },
+  {
+    "titolo": "Shameless",
+    "descrizione": "La famiglia Gallagher tra disastri, amore e resistenza urbana.",
+    "categoria": "Se vuoi divertirti",
+    "piattaforma": "Disney+"
+  },
+  {
+    "titolo": "Valeria",
+    "descrizione": "Scrittrice in crisi e amiche inseparabili nella Madrid contemporanea.",
+    "categoria": "Se vuoi divertirti",
+    "piattaforma": "Netflix"
+  },
+  {
+    "titolo": "Odio il Natale",
+    "descrizione": "Una commedia romantica natalizia tutta italiana.",
+    "categoria": "Se vuoi divertirti",
+    "piattaforma": "Netflix"
+  },
+  {
+    "titolo": "La fantastica signora Maisel",
+    "descrizione": "Una donna che scopre il suo talento per la comicità negli anni '50.",
+    "categoria": "Se vuoi divertirti",
+    "piattaforma": "Amazon Prime Video"
+  },
+  {
+    "titolo": "Hollywood",
+    "descrizione": "Il sogno di Hollywood negli anni '40 con un twist inclusivo.",
+    "categoria": "Se vuoi divertirti",
+    "piattaforma": "Netflix"
+  },
+  {
+    "titolo": "Me You Her",
+    "descrizione": "Una commedia romantica moderna su relazioni non convenzionali.",
+    "categoria": "Se vuoi divertirti",
+    "piattaforma": "Netflix"
+  },
+  {
+    "titolo": "Suburra",
+    "descrizione": "Roma criminale, tra politica, Chiesa e potere.",
+    "categoria": "Un po' d'azione",
+    "piattaforma": "Netflix"
+  },
+  {
+    "titolo": "Lost",
+    "descrizione": "Sopravvivenza e misteri: un'isola che ti cattura e non ti lascia più.",
+    "categoria": "Un po' d'azione",
+    "piattaforma": "Disney+"
+  },
+  {
+    "titolo": "Prison Break",
+    "descrizione": "Evasioni impossibili e fratelli uniti fino alla fine.",
+    "categoria": "Un po' d'azione",
+    "piattaforma": "Disney+"
+  },
+  {
+    "titolo": "La Casa di Carta",
+    "descrizione": "Il colpo del secolo con la banda più famosa della TV.",
+    "categoria": "Un po' d'azione",
+    "piattaforma": "Netflix"
+  },
+  {
+    "titolo": "Lucifer",
+    "descrizione": "Il diavolo abbandona l'Inferno per risolvere crimini... e sentimenti.",
+    "categoria": "Un po' d'azione",
+    "piattaforma": "Disney+"
+  },
+  {
+    "titolo": "Sense8",
+    "descrizione": "Otto persone collegate da un legame psichico potentissimo.",
+    "categoria": "Un po' d'azione",
+    "piattaforma": "Netflix"
+  },
+  {
+    "titolo": "Orphan Black",
+    "descrizione": "Cloni, segreti e una protagonista camaleontica.",
+    "categoria": "Un po' d'azione",
+    "piattaforma": "Disney+"
+  },
+  {
+    "titolo": "Orange is the New Black",
+    "descrizione": "Donne, prigione e storie complesse: un mix esplosivo.",
+    "categoria": "Un po' d'azione",
+    "piattaforma": "Netflix"
+  },
+  {
+    "titolo": "The Bear",
+    "descrizione": "Un cuoco geniale alle prese con il caos e la rinascita di una cucina.",
+    "categoria": "Un po' d'azione",
+    "piattaforma": "Netflix"
+  },
+  {
+    "titolo": "Berlin",
+    "descrizione": "Il prequel de La Casa di Carta con un tocco più elegante e romantico.",
+    "categoria": "Un po' d'azione",
+    "piattaforma": "Netflix"
+  },
+  {
+    "titolo": "Vis a Vis",
+    "descrizione": "Donne in carcere tra durezza, emozione e redenzione.",
+    "categoria": "Un po' d'azione",
+    "piattaforma": "Netflix"
+  },
+  {
+    "titolo": "Inventing Anna",
+    "descrizione": "La storia vera di Anna Delvey, la truffatrice di New York.",
+    "categoria": "Un po' d'azione",
+    "piattaforma": "Netflix"
+  },
+  {
+    "titolo": "The Originals",
+    "descrizione": "I vampiri originali tornano a New Orleans per reclamare la loro città.",
+    "categoria": "Un po' d'azione",
+    "piattaforma": "Disney+"
+  },
+  {
+    "titolo": "Le regole del delitto perfetto",
+    "descrizione": "Un thriller psicologico che ti tiene con il fiato sospeso.",
+    "categoria": "Un po' d'azione",
+    "piattaforma": "Netflix"
+  },
+  {
+    "titolo": "Violetta",
+    "descrizione": "Musica, amore e crescita in stile Disney.",
+    "categoria": "Tornare bambini",
+    "piattaforma": "Disney+"
+  },
+  {
+    "titolo": "Sonny tra le stelle",
+    "descrizione": "Un ragazzo che sogna di diventare una star della musica.",
+    "categoria": "Tornare bambini",
+    "piattaforma": "Disney+"
+  },
+  {
+    "titolo": "Hannah Montana",
+    "descrizione": "La doppia vita di Miley Stewart e la sua star Hannah Montana.",
+    "categoria": "Tornare bambini",
+    "piattaforma": "Disney+"
+  },
+  {
+    "titolo": "I Maghi di Waverly",
+    "descrizione": "Tre fratelli che imparano a usare la magia in un ristorante.",
+    "categoria": "Tornare bambini",
+    "piattaforma": "Disney+"
+  },
+  {
+    "titolo": "Zack e Cody al Grand Hotel",
+    "descrizione": "Due gemelli che vivono in un hotel di lusso con la loro madre.",
+    "categoria": "Tornare bambini",
+    "piattaforma": "Disney+"
+  }
+]
