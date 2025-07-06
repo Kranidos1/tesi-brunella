@@ -146,7 +146,7 @@ function createSeriesCard(series) {
     colDiv.className = 'col-md-6 col-lg-4';
     
     // Genera un'immagine placeholder basata sul titolo
-    const placeholderImage = generatePlaceholderImage(series.titolo);
+    // const placeholderImage = generatePlaceholderImage(series.titolo);
     
     colDiv.innerHTML = `
         <div class="series-card">
@@ -164,38 +164,28 @@ function createSeriesCard(series) {
     return colDiv;
 }
 
-// ===== GENERAZIONE IMMAGINI PLACEHOLDER =====
-function generatePlaceholderImage(title) {
-    // Crea un'immagine SVG personalizzata basata sul titolo
-    const colors = ['#ffb3d1', '#c2185b', '#ffe6f0', '#8e0038'];
-    const color = colors[Math.floor(Math.random() * colors.length)];
+// // ===== GENERAZIONE IMMAGINI PLACEHOLDER =====
+// function generatePlaceholderImage(title) {
+//     // Crea un'immagine SVG personalizzata basata sul titolo
+//     const colors = ['#ffb3d1', '#c2185b', '#ffe6f0', '#8e0038'];
+//     const color = colors[Math.floor(Math.random() * colors.length)];
     
-    const svg = `
-        <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
-            <rect width="100%" height="100%" fill="${color}" opacity="0.8"/>
-            <text x="50%" y="50%" font-family="Arial, sans-serif" font-size="16" 
-                  fill="white" text-anchor="middle" dominant-baseline="middle">
-                ${title}
-            </text>
-            <text x="50%" y="70%" font-family="Arial, sans-serif" font-size="12" 
-                  fill="white" text-anchor="middle" dominant-baseline="middle">
-                📺 Serie TV
-            </text>
-        </svg>
-    `;
+//     const svg = `
+//         <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+//             <rect width="100%" height="100%" fill="${color}" opacity="0.8"/>
+//             <text x="50%" y="50%" font-family="Arial, sans-serif" font-size="16" 
+//                   fill="white" text-anchor="middle" dominant-baseline="middle">
+//                 ${title}
+//             </text>
+//             <text x="50%" y="70%" font-family="Arial, sans-serif" font-size="12" 
+//                   fill="white" text-anchor="middle" dominant-baseline="middle">
+//                 📺 Serie TV
+//             </text>
+//         </svg>
+//     `;
     
-    return `data:image/svg+xml;base64,${btoa(svg)}`;
-}
-
-// ===== RICERCA IMMAGINI TMDb (OPZIONALE) =====
-async function searchTMDBImage(title) {
-    // Nota: Per usare TMDb API, dovresti registrarti e ottenere una API key
-    // const API_KEY = 'your_tmdb_api_key_here';
-    // const url = `https://api.themoviedb.org/3/search/tv?api_key=${API_KEY}&query=${encodeURIComponent(title)}&language=it-IT`;
-    
-    // Per ora, ritorniamo il placeholder
-    return generatePlaceholderImage(title);
-}
+//     return `data:image/svg+xml;base64,${btoa(svg)}`;
+// }
 
 // ===== SCROLL TO TOP BUTTON =====
 function initScrollToTop() {
