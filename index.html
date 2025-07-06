@@ -1,86 +1,444 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Binge Therapy – La guida di Brunella</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(to bottom right, #ffe6f0, #fff0f5);
-      color: #3a3a3a;
-    }
-
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 3rem 1rem;
-      text-align: center;
-    }
-
-    h1 {
-      font-size: 3rem;
-      color: #c2185b;
-      margin-bottom: 0.5rem;
-    }
-
-    h2 {
-      font-size: 1.8rem;
-      color: #5a323c;
-      margin-bottom: 2rem;
-    }
-
-    p {
-      font-size: 1.1rem;
-      line-height: 1.6;
-      color: #4e4e4e;
-      margin-bottom: 1.5rem;
-    }
-
-    .intro-box {
-      background-color: #ffffffcc;
-      padding: 2rem;
-      border-radius: 20px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    }
-
-    .qr-reminder {
-      font-size: 1.2rem;
-      margin-top: 2rem;
-      font-style: italic;
-      color: #8e2a5a;
-    }
-
-    .footer {
-      margin-top: 4rem;
-      font-size: 0.9rem;
-      color: #999;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binge Therapy – La guida di Brunella alle serie che curano l'anima</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Comic+Neue:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome per le icone -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <div class="intro-box">
-      <h1>💖 BINGE THERAPY 💖</h1>
-      <h2>La guida di Brunella alle serie che curano l’anima</h2>
-      <p>
-        Tv Time dice che da quando sono nata ho passato <strong>14 mesi 21 giorni e 9 ore</strong> a guardare serie tv.
-      </p>
-      <p>
-        Una delle mie cose preferite al mondo è consigliare film e serie tv a chiunque, quindi quale occasione migliore
-        di una <strong>laurea in televisione</strong> per regalarvi la mia guida completa?
-      </p>
-      <p class="qr-reminder">
-        Scansiona il QR code nella bomboniera, metti in infusione la tua tisana preferita, lancia i popcorn nel microonde,
-        applica la maschera viso più glam che hai e... benvenutə in <strong>Binge Therapy</strong>! 📺🍿✨
-      </p>
-    </div>
+    <!-- Header fisso -->
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#home">
+                    <span class="brand-emoji">💖</span> Binge Therapy <span class="brand-emoji">💖</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#categorie">Categorie</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#chi-sono">Chi sono</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-    <div class="footer">
-      © 2025 Brunella De Luca – Progetto di laurea in Televisione
-    </div>
-  </div>
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-8">
+                    <div class="hero-content">
+                        <h1 class="hero-title">
+                            <span class="brand-emoji">💖</span> Binge Therapy <span class="brand-emoji">💖</span>
+                        </h1>
+                        <h2 class="hero-subtitle">La guida di Brunella alle serie che curano l'anima</h2>
+                        
+                        <div class="hero-text">
+                            <p class="lead">
+                                Tv Time dice che da quando sono nata ho passato <strong>14 mesi 21 giorni e 9 ore</strong> a guardare serie tv.
+                            </p>
+                            <p>
+                                Una delle mie cose preferite al mondo è consigliare film e serie tv a chiunque, quindi quale occasione migliore di una laurea in televisione per regalarvi la mia guida completa?
+                            </p>
+                            <p class="welcome-text">
+                                Scansiona il QR code nella bomboniera, metti in infusione la tua tisana preferita, lancia i popcorn nel microonde, applica la maschera viso più glam che hai e... <strong>benvenutə in Binge Therapy!</strong> 📺🍿✨
+                            </p>
+                        </div>
+                        
+                        <div class="hero-buttons">
+                            <a href="#categorie" class="btn btn-primary btn-lg scroll-btn">
+                                <i class="fas fa-tv me-2"></i>Scopri le categorie
+                            </a>
+                            <button class="btn btn-outline-primary btn-lg ms-3" onclick="downloadPDF()">
+                                <i class="fas fa-download me-2"></i>Scarica PDF
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categorie Section -->
+    <section id="categorie" class="categories-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Le mie categorie preferite</h2>
+                    <p class="section-subtitle">Trova la tua prossima serie perfetta</p>
+                </div>
+            </div>
+
+            <!-- Teen Drama -->
+            <div class="category-card mb-5">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="category-title">
+                            <span class="category-emoji">🎓</span> I teen drama da non perdere
+                        </h3>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="series-card">
+                            <div class="series-image">
+                                <img src="https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg" alt="Gossip Girl" class="img-fluid">
+                            </div>
+                            <div class="series-content">
+                                <h4>Gossip Girl</h4>
+                                <p>Perché a volte abbiamo tutti bisogno di un po' di Upper East Side nella nostra vita. XOXO, Gossip Girl.</p>
+                                <span class="platform">Netflix</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="series-card">
+                            <div class="series-image">
+                                <img src="https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg" alt="The Vampire Diaries" class="img-fluid">
+                            </div>
+                            <div class="series-content">
+                                <h4>The Vampire Diaries</h4>
+                                <p>Team Damon o Team Stefan? La domanda che ha diviso generazioni. E poi c'è Caroline, la vera protagonista.</p>
+                                <span class="platform">Prime Video</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="series-card">
+                            <div class="series-image">
+                                <img src="https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg" alt="Riverdale" class="img-fluid">
+                            </div>
+                            <div class="series-content">
+                                <h4>Riverdale</h4>
+                                <p>Archie Comics come non li avete mai visti. Dark, sexy e con più misteri di quanti ne possa risolvere Betty.</p>
+                                <span class="platform">Netflix</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Prepara i fazzoletti -->
+            <div class="category-card mb-5">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="category-title">
+                            <span class="category-emoji">😭</span> Prepara i fazzoletti
+                        </h3>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="series-card">
+                            <div class="series-image">
+                                <img src="https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg" alt="This Is Us" class="img-fluid">
+                            </div>
+                            <div class="series-content">
+                                <h4>This Is Us</h4>
+                                <p>Ogni episodio è una montagna russa di emozioni. Tenete i fazzoletti a portata di mano, ne avrete bisogno.</p>
+                                <span class="platform">Disney+</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="series-card">
+                            <div class="series-image">
+                                <img src="https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg" alt="A Million Little Things" class="img-fluid">
+                            </div>
+                            <div class="series-content">
+                                <h4>A Million Little Things</h4>
+                                <p>L'amicizia, la perdita, la vita. Una serie che ti fa riflettere su tutto quello che conta davvero.</p>
+                                <span class="platform">Prime Video</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="series-card">
+                            <div class="series-image">
+                                <img src="https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg" alt="The Good Doctor" class="img-fluid">
+                            </div>
+                            <div class="series-content">
+                                <h4>The Good Doctor</h4>
+                                <p>Shaun Murphy ci insegna che essere diversi è un superpotere. E che la medicina è fatta di cuore, non solo di testa.</p>
+                                <span class="platform">Disney+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fiction italiana -->
+            <div class="category-card mb-5">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="category-title">
+                            <span class="category-emoji">🇮🇹</span> Fiction italiana
+                        </h3>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="series-card">
+                            <div class="series-image">
+                                <img src="https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg" alt="Mare Fuori" class="img-fluid">
+                            </div>
+                            <div class="series-content">
+                                <h4>Mare Fuori</h4>
+                                <p>Napoli, mare, e storie di ragazzi che cercano di trovare la loro strada. Una serie che ha conquistato tutti.</p>
+                                <span class="platform">RaiPlay</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="series-card">
+                            <div class="series-image">
+                                <img src="https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg" alt="Baby" class="img-fluid">
+                            </div>
+                            <div class="series-content">
+                                <h4>Baby</h4>
+                                <p>Roma, liceo, e le vite segrete di adolescenti che crescono troppo in fretta. Controversa ma realistica.</p>
+                                <span class="platform">Netflix</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="series-card">
+                            <div class="series-image">
+                                <img src="https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg" alt="Suburra" class="img-fluid">
+                            </div>
+                            <div class="series-content">
+                                <h4>Suburra</h4>
+                                <p>Roma, politica, criminalità. Una serie che ti fa capire che la realtà supera sempre la fantasia.</p>
+                                <span class="platform">Netflix</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Se vuoi divertirti -->
+            <div class="category-card mb-5">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="category-title">
+                            <span class="category-emoji">🤣</span> Se vuoi divertirti
+                        </h3>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="series-card">
+                            <div class="series-image">
+                                <img src="https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg" alt="Brooklyn Nine-Nine" class="img-fluid">
+                            </div>
+                            <div class="series-content">
+                                <h4>Brooklyn Nine-Nine</h4>
+                                <p>Jake Peralta e la squadra del 99° distretto. Commedia pura che ti farà ridere fino alle lacrime.</p>
+                                <span class="platform">Netflix</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="series-card">
+                            <div class="series-image">
+                                <img src="https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg" alt="The Office" class="img-fluid">
+                            </div>
+                            <div class="series-content">
+                                <h4>The Office</h4>
+                                <p>Michael Scott e i suoi colleghi di Dunder Mifflin. La serie che ha definito la sitcom moderna.</p>
+                                <span class="platform">Prime Video</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="series-card">
+                            <div class="series-image">
+                                <img src="https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg" alt="Parks and Recreation" class="img-fluid">
+                            </div>
+                            <div class="series-content">
+                                <h4>Parks and Recreation</h4>
+                                <p>Leslie Knope e il dipartimento dei parchi di Pawnee. Ottimismo, amicizia e waffles.</p>
+                                <span class="platform">Prime Video</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Un po' d'azione -->
+            <div class="category-card mb-5">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="category-title">
+                            <span class="category-emoji">💣</span> Un po' d'azione
+                        </h3>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="series-card">
+                            <div class="series-image">
+                                <img src="https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg" alt="Stranger Things" class="img-fluid">
+                            </div>
+                            <div class="series-content">
+                                <h4>Stranger Things</h4>
+                                <p>Hawkins, Indiana, e un mondo parallelo. Eleven, i ragazzi e la nostalgia degli anni '80.</p>
+                                <span class="platform">Netflix</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="series-card">
+                            <div class="series-image">
+                                <img src="https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg" alt="The Boys" class="img-fluid">
+                            </div>
+                            <div class="series-content">
+                                <h4>The Boys</h4>
+                                <p>Supereroi che non sono così super come sembrano. Dark, violento e geniale.</p>
+                                <span class="platform">Prime Video</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="series-card">
+                            <div class="series-image">
+                                <img src="https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg" alt="Wednesday" class="img-fluid">
+                            </div>
+                            <div class="series-content">
+                                <h4>Wednesday</h4>
+                                <p>Wednesday Addams alla Nevermore Academy. Dark, gotico e con un'ottima colonna sonora.</p>
+                                <span class="platform">Netflix</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Per tornare bambini -->
+            <div class="category-card mb-5">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="category-title">
+                            <span class="category-emoji">👶</span> Per tornare bambini
+                        </h3>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="series-card">
+                            <div class="series-image">
+                                <img src="https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg" alt="Avatar: The Last Airbender" class="img-fluid">
+                            </div>
+                            <div class="series-content">
+                                <h4>Avatar: The Last Airbender</h4>
+                                <p>Aang, Katara, Sokka e Toph. Un'avventura che ti farà credere nella magia dell'amicizia.</p>
+                                <span class="platform">Netflix</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="series-card">
+                            <div class="series-image">
+                                <img src="https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg" alt="The Mandalorian" class="img-fluid">
+                            </div>
+                            <div class="series-content">
+                                <h4>The Mandalorian</h4>
+                                <p>Baby Yoda e il suo protettore. Star Wars come non l'avete mai visto, con tanto cuore.</p>
+                                <span class="platform">Disney+</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="series-card">
+                            <div class="series-image">
+                                <img src="https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg" alt="The Good Place" class="img-fluid">
+                            </div>
+                            <div class="series-content">
+                                <h4>The Good Place</h4>
+                                <p>Eleanor Shellstrop e la sua avventura nell'aldilà. Filosofia, etica e tante risate.</p>
+                                <span class="platform">Netflix</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chi sono Section -->
+    <section id="chi-sono" class="about-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="section-title">Chi sono</h2>
+                    <div class="about-content">
+                        <div class="about-image mb-4">
+                            <div class="profile-placeholder">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                        </div>
+                        <h3>Brunella</h3>
+                        <p class="lead">
+                            Ciao! Sono Brunella, una laureanda in televisione con una passione sfrenata per le serie tv.
+                        </p>
+                        <p>
+                            Ho passato la mia vita a guardare, analizzare e consigliare serie a chiunque mi capitasse a tiro. 
+                            Ora che mi sto laureando in televisione, ho deciso di condividere la mia saggezza binge-watching 
+                            con tutti voi attraverso questa guida.
+                        </p>
+                        <p>
+                            Spero che queste raccomandazioni vi portino tante ore di divertimento, emozioni e, perché no, 
+                            anche qualche lacrima. Perché le serie tv sono come la vita: a volte ti fanno ridere, a volte 
+                            piangere, ma ti lasciano sempre qualcosa di speciale.
+                        </p>
+                        <div class="signature">
+                            <p><strong>Con amore, Brunella 💖</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p>&copy; 2024 Binge Therapy - La guida di Brunella alle serie che curano l'anima</p>
+                    <p class="footer-subtitle">Fatto con 💖 per tutti gli amanti delle serie tv</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="script.js"></script>
 </body>
 </html>
