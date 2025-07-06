@@ -151,7 +151,7 @@ function createSeriesCard(series) {
     colDiv.innerHTML = `
         <div class="series-card">
             <div class="series-image">
-                <img src="${placeholderImage}" alt="${series.titolo}" class="img-fluid" loading="lazy">
+                // <img src="" alt="${series.titolo}" class="img-fluid" loading="lazy">
             </div>
             <div class="series-content">
                 <h4>${series.titolo}</h4>
