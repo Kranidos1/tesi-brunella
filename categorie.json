@@ -3,492 +3,574 @@
     "titolo": "The OC",
     "descrizione": "Sole, drammi e feste in piscina: l'ABC del teen drama.",
     "categoria": "I teen drama da non perdere",
-    "piattaforma": "Amazon Prime Video"
+    "piattaforma": "Amazon Prime Video",
+    "image": "https://www.taxidrivers.it/wp-content/uploads/2024/08/the-oc-serie-tv.jpg"
   },
   {
     "titolo": "One Tree Hill",
     "descrizione": "Basket, musica e sentimenti che crescono con te.",
     "categoria": "I teen drama da non perdere",
-    "piattaforma": "Amazon Prime Video"
+    "piattaforma": "Amazon Prime Video",
+    "image": "https://m.media-amazon.com/images/I/A1mDE8jK2uL._UF1000,1000_QL80_.jpg"
   },
   {
     "titolo": "Skam Italia",
     "descrizione": "Adolescenza vera, cruda, italiana e potentissima.",
     "categoria": "I teen drama da non perdere",
-    "piattaforma": "Netflix"
+    "piattaforma": "Netflix",
+    "image": "https://images.squarespace-cdn.com/content/v1/638e1ee260c3495022362485/f4cd20e5-13a1-4567-8fd8-7a6c19da090a/skam-Migliorato-SR.jpg"
   },
   {
     "titolo": "Ginny & Georgia",
     "descrizione": "Una madre giovane e una figlia acuta: tra drammi e sorrisi.",
     "categoria": "I teen drama da non perdere",
-    "piattaforma": "Netflix"
+    "piattaforma": "Netflix",
+    "image": "https://i0.wp.com/www.moviedigger.it/wp-content/uploads/2023/01/Ginny-Georgia-poster-stagione-2.jpeg?resize=900%2C1333&ssl=1"
   },
   {
     "titolo": "Young Royals",
     "descrizione": "La monarchia svedese come non l'avete mai vista.",
     "categoria": "I teen drama da non perdere",
-    "piattaforma": "Netflix"
+    "piattaforma": "Netflix",
+    "image": "https://www.today.it/~shared/images/tv/locandine/young-royals-3vu.jpg"
   },
   {
     "titolo": "L'estate nei tuoi occhi",
     "descrizione": "Amori e scoperte sotto il sole d'estate.",
     "categoria": "I teen drama da non perdere",
-    "piattaforma": "Netflix"
+    "piattaforma": "Netflix",
+    "image": "https://m.media-amazon.com/images/S/pv-target-images/e92acaa6df541bf9ecfa692f74cda1854149646ea1aa7578ef6682f26c1f89ed.jpg"
   },
   {
     "titolo": "The Vampire Diaries",
     "descrizione": "Amori, vampiri e segreti nell'immortale Mystic Falls.",
     "categoria": "I teen drama da non perdere",
-    "piattaforma": "Disney+"
+    "piattaforma": "Disney+",
+    "image": "https://m.media-amazon.com/images/S/pv-target-images/1545c1c1c89d476d35029056ddb248ebb9523acf7488250d0370e8a8fa5e40ad.jpg"
   },
   {
     "titolo": "Dawson's Creek",
     "descrizione": "Il teen drama che ha fatto storia.",
     "categoria": "I teen drama da non perdere",
-    "piattaforma": "Disney+"
+    "piattaforma": "Disney+",
+    "image": "https://resizing.flixster.com/bS8FnszkVylU91OJ1KBBhEkL5EE=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184362_b_v9_ai.jpg"
   },
   {
     "titolo": "Bridgerton",
     "descrizione": "Amore e intrighi nell'alta società londinese del passato.",
     "categoria": "I teen drama da non perdere",
-    "piattaforma": "Netflix"
+    "piattaforma": "Netflix",
+    "image": "https://ntvb.tmsimg.com/assets/p18974714_b_h10_ao.jpg?w=960&h=540"
   },
   {
     "titolo": "Elite",
     "descrizione": "Un liceo esclusivo dove il dramma è sempre dietro l'angolo.",
     "categoria": "I teen drama da non perdere",
-    "piattaforma": "Netflix"
+    "piattaforma": "Netflix",
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRvEBvfg3wLi-f3Hfj8eIZIsVjlyVfQztMW9_vja366d31SLspLInmbCET8UTelw2DQwhR2QdTgFlee1pBKlgCRN7wrbby3xQkSDiF2P3AP"
   },
   {
     "titolo": "My Lady Jane",
     "descrizione": "Una storia d'amore alternativa nella Londra del '500.",
     "categoria": "I teen drama da non perdere",
-    "piattaforma": "Netflix"
+    "piattaforma": "Netflix",
+    "image": "https://m.media-amazon.com/images/I/91fyAPtOr9L._UF1000,1000_QL80_.jpg"
   },
   {
     "titolo": "Prisma",
     "descrizione": "Identità di genere e adolescenza in una serie italiana rivoluzionaria.",
     "categoria": "I teen drama da non perdere",
-    "piattaforma": "Netflix"
+    "piattaforma": "Netflix",
+    "image": "https://pad.mymovies.it/filmclub/2023/06/193/locandina.jpg"
   },
   {
     "titolo": "Legacies",
     "descrizione": "I figli dei vampiri più famosi della TV crescono e si innamorano.",
     "categoria": "I teen drama da non perdere",
-    "piattaforma": "Disney+"
+    "piattaforma": "Disney+",
+    "image": "data:image/jpeg;base64,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"
   },
   {
     "titolo": "Queen Charlotte",
     "descrizione": "La storia d'amore che ha cambiato il mondo di Bridgerton.",
     "categoria": "I teen drama da non perdere",
-    "piattaforma": "Netflix"
+    "piattaforma": "Netflix",
+    "image": "https://upload.wikimedia.org/wikipedia/en/b/bb/Queen_Charlotte-_A_Bridgerton_Story.png"
   },
   {
     "titolo": "Fate: The Winx Saga",
     "descrizione": "Fate, amicizia e poteri magici in un college speciale.",
     "categoria": "I teen drama da non perdere",
-    "piattaforma": "Netflix"
+    "piattaforma": "Netflix",
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT2y26hrbXCgVpWEp4FNrMTc1x6SkThzfYewAwJUo8O_xueax2kTSXTuwhSchWJTvfPlVbT0OMPZdMrN94twsgaU4Bn-0tcBfJ7IPy0Xcus"
   },
   {
     "titolo": "First Kill",
     "descrizione": "Una vampira e una cacciatrice di vampiri si innamorano.",
     "categoria": "I teen drama da non perdere",
-    "piattaforma": "Netflix"
+    "piattaforma": "Netflix",
+    "image": "https://nonsoloserietv.altervista.org/wp-content/uploads/2022/08/first-kill.jpg"
   },
   {
     "titolo": "Teen Wolf",
     "descrizione": "Lupi mannari, lacrime e amicizia in una serie cult.",
     "categoria": "I teen drama da non perdere",
-    "piattaforma": "Disney+"
+    "piattaforma": "Disney+",
+    "image": "data:image/jpeg;base64,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"
   },
   {
     "titolo": "The End of the F***ing World",
     "descrizione": "Due adolescenti problematici in fuga verso l'amore.",
     "categoria": "I teen drama da non perdere",
-    "piattaforma": "Netflix"
+    "piattaforma": "Netflix",
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRVo-PGnqrwaPtGv4gkROZv32KZyA7SkhVg7ee2py9N6LxP-SKPOCiffKoMIW-zghtWE0Vi0UYuBIRs91w0VQ-q0WTv47ItqPsAJfBP9W4eMg"
   },
   {
     "titolo": "Pretty Little Liars",
     "descrizione": "Segreti, bugie e misteri in una cittadina apparentemente perfetta.",
     "categoria": "I teen drama da non perdere",
-    "piattaforma": "Amazon Prime Video"
+    "piattaforma": "Amazon Prime Video",
+    "image": "https://static.posters.cz/image/1300/15912.jpg"
   },
   {
     "titolo": "This Is Us",
     "descrizione": "Ogni episodio è un'emozione che ti colpisce dritto al cuore.",
     "categoria": "Prepara i fazzoletti",
-    "piattaforma": "Disney+"
+    "piattaforma": "Disney+",
+    "image": "https://themantovanis.blog/wp-content/uploads/2019/04/this-is-us.jpg"
   },
   {
     "titolo": "Parenthood",
     "descrizione": "Una famiglia imperfetta ma incredibilmente reale.",
     "categoria": "Prepara i fazzoletti",
-    "piattaforma": "Disney+"
+    "piattaforma": "Disney+",
+    "image": "https://ntvb.tmsimg.com/assets/p8748528_b_h10_aa.jpg?w=1280&h=720"
   },
   {
     "titolo": "L'amica geniale",
     "descrizione": "Napoli, amicizia e crescita: un racconto struggente e potente.",
     "categoria": "Prepara i fazzoletti",
-    "piattaforma": "HBO Max"
+    "piattaforma": "HBO Max",
+    "image": "https://www.raiplay.it/resizegd/1200x675/dl/img/2024/10/28/1730114515854_2048x1152_label.jpg"
   },
   {
     "titolo": "Braccialetti Rossi",
     "descrizione": "Coraggio, amicizia e dolore tra le corsie di un ospedale.",
     "categoria": "Prepara i fazzoletti",
-    "piattaforma": "Disney+"
+    "piattaforma": "Disney+",
+    "image": "https://www.raiplay.it/dl/img/2020/04/07/1586268241784_1536x2048logo.jpg"
   },
   {
     "titolo": "Tutto chiede salvezza",
     "descrizione": "Un viaggio toccante tra fragilità e umanità.",
     "categoria": "Prepara i fazzoletti",
-    "piattaforma": "Netflix"
+    "piattaforma": "Netflix",
+    "image": "https://www.mondadori.it/content/uploads/2022/10/978880476576HIG.JPG"
   },
   {
     "titolo": "L'estate in cui imparammo a volare",
     "descrizione": "Amicizia tra donne e vite che si incrociano nel tempo.",
     "categoria": "Prepara i fazzoletti",
-    "piattaforma": "Netflix"
+    "piattaforma": "Netflix",
+    "image": "https://www.taxidrivers.it/wp-content/uploads/2023/04/AAAABZhOtiqYG1gRZQuP0x8iZKo7Ba5oZTIrAcbzpYsA5srDeg-ZI-W5D1mczeXGGSHaA0MCDMg5FZGpJyyFOJwpIcDBhJcu9B9XB9niWg-YPg6xauUT2IgUQni900JnbuUQJQNH5A.jpg"
   },
   {
     "titolo": "Nobody Wants This",
     "descrizione": "Un dramma moderno sulla pressione sociale e l'identità.",
     "categoria": "Prepara i fazzoletti",
-    "piattaforma": "Netflix"
+    "piattaforma": "Netflix",
+    "image": "https://dnm.nflximg.net/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABecmI3BtRqQlqXqm1uDnRDOhb9Lvf0p5dln7nkDeq1yJ_IolbBMncTByiuRu_yf220HN2Gmlc35mrvE7eTdTdHdyzoJ37XxQ2XveIDqEv2FLWxCV8Fa6vkF9Ajye5P6F9rc-cg.jpg?r=a3b"
   },
   {
     "titolo": "Adolescence",
     "descrizione": "Un viaggio profondo e reale nella crescita adolescenziale.",
     "categoria": "Prepara i fazzoletti",
-    "piattaforma": "Netflix"
+    "piattaforma": "Netflix",
+    "image": "https://resizing.flixster.com/u6LzTcfdwif4IpoesY6wBgqnWSg=/fit-in/352x330/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p29402177_b_v8_ab.jpg"
   },
   {
     "titolo": "Euphoria",
     "descrizione": "Adolescenza cruda, droghe, sesso e la ricerca di se stessi.",
     "categoria": "Prepara i fazzoletti",
-    "piattaforma": "Disney+"
+    "piattaforma": "Disney+",
+    "image": "https://deadline-magazin.de/wp-content/uploads/2023/01/Sky_Euphoria_1.jpg-1024x785.jpg"
   },
   {
     "titolo": "Maid",
     "descrizione": "Una madre single che lotta per ricostruire la sua vita.",
     "categoria": "Prepara i fazzoletti",
-    "piattaforma": "Netflix"
+    "piattaforma": "Netflix",
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQMOnc3WxoUO_xd6ULYzZKYxATN10MuKbxTyIgLqgFoi60pITlNDBU5ZVbifJVVtH_cab_ITl0jv0HjhPb_izVCHV0_Jrr_aEZA_-ql2XxKrw"
   },
   {
     "titolo": "La vita bugiarda degli adulti",
     "descrizione": "Una ragazza che scopre i segreti nascosti della sua famiglia.",
     "categoria": "Prepara i fazzoletti",
-    "piattaforma": "Raiplay"
+    "piattaforma": "Raiplay",
+    "image": "https://pad.mymovies.it/filmclub/2020/05/017/locandina.jpg"
   },
   {
     "titolo": "Soundtrack",
     "descrizione": "Amore e musica si intrecciano in una Los Angeles romantica.",
     "categoria": "Prepara i fazzoletti",
-    "piattaforma": "Netflix"
+    "piattaforma": "Netflix",
+    "image": "https://m.media-amazon.com/images/M/MV5BZWUxY2IzOTEtMDVjZi00YTQzLWI1NjctYjFlZmE1YzgwNmUyXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "titolo": "Mare Fuori",
     "descrizione": "Storie di ragazzi al limite, tra sogni, sbagli e redenzione.",
     "categoria": "Fiction italiana",
-    "piattaforma": "Netflix"
+    "piattaforma": "Netflix",
+    "image": "https://www.raiplay.it/resizegd/1440x-/dl/img/2025/03/11/1741733776474_2048x1152.jpg"
   },
   {
     "titolo": "Un Professore",
     "descrizione": "Un insegnante fuori dagli schemi e studenti tutti da scoprire.",
     "categoria": "Fiction italiana",
-    "piattaforma": "Raiplay"
+    "piattaforma": "Raiplay",
+    "image": "https://www.raiplay.it/dl/img/2024/01/22/1705918282205_2048x1152_logo.jpg"
   },
   {
     "titolo": "Nero a Metà",
     "descrizione": "Un poliziesco romano con ritmo, emozione e uno sguardo nuovo.",
     "categoria": "Fiction italiana",
-    "piattaforma": "Raiplay"
+    "piattaforma": "Raiplay",
+    "image": "https://www.raiplay.it/cropgd/279x372/dl/img/2024/07/17/1721219933612_nero%20a%20meta.jpg"
   },
   {
     "titolo": "Commissario Ricciardi",
     "descrizione": "Un commissario che sente le ultime parole dei morti.",
     "categoria": "Fiction italiana",
-    "piattaforma": "Raiplay"
+    "piattaforma": "Raiplay",
+    "image": "https://www.raiplay.it/dl/img/2023/03/24/1679655180971_1536x2048_logo2.jpg"
   },
   {
     "titolo": "Miss Fallaci",
     "descrizione": "La storia di una delle più grandi giornaliste italiane.",
     "categoria": "Fiction italiana",
-    "piattaforma": "Raiplay"
+    "piattaforma": "Raiplay",
+    "image": "https://pad.mymovies.it/filmclub/2023/02/002/locandina.jpg"
   },
   {
     "titolo": "I Leoni di Sicilia",
     "descrizione": "Una dinastia di commercianti nella Sicilia dell'Ottocento.",
     "categoria": "Fiction italiana",
-    "piattaforma": "Raiplay"
+    "piattaforma": "Raiplay",
+    "image": "https://m.media-amazon.com/images/I/81OOml+a8jL._UF1000,1000_QL80_.jpg"
   },
   {
     "titolo": "Lidia Poët",
     "descrizione": "La prima donna avvocato d'Italia tra misteri e femminismo.",
     "categoria": "Fiction italiana",
-    "piattaforma": "Netflix"
+    "piattaforma": "Netflix",
+    "image": "https://m.media-amazon.com/images/M/MV5BZjIzZDFmODEtZTBiMy00OGQ1LTk1NDAtOTRkYWY5Mjk1NTE5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
   },
   {
     "titolo": "Generazione 56k",
     "descrizione": "Amore e nostalgia tra passato e presente.",
     "categoria": "Fiction italiana",
-    "piattaforma": "Netflix"
+    "piattaforma": "Netflix",
+    "image": "https://pad.mymovies.it/filmclub/2020/11/097/locandina.jpg"
   },
   {
     "titolo": "1992",
     "descrizione": "Politica, potere e scandali nella Milano di Tangentopoli.",
     "categoria": "Fiction italiana",
-    "piattaforma": "Raiplay"
+    "piattaforma": "Raiplay",
+    "image": "https://m.media-amazon.com/images/M/MV5BMmM0MTBiMTYtNjQ4ZS00OWQ0LTlkYWMtN2I0ZjFiMjQ4NjMyXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "titolo": "Hanno ucciso l'uomo ragno",
     "descrizione": "Un viaggio musicale e nostalgico tra gli 883 e l'Italia anni '90.",
     "categoria": "Fiction italiana",
-    "piattaforma": "Raiplay"
+    "piattaforma": "Raiplay",
+    "image": "https://m.media-amazon.com/images/M/MV5BZTFlZmE1YTEtN2NhZi00MDNiLWE4OTAtOWM2OGE1ZDVkNGNmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
   },
   {
     "titolo": "A casa tutti bene",
     "descrizione": "Una famiglia italiana riunita che nasconde segreti e tensioni.",
     "categoria": "Fiction italiana",
-    "piattaforma": "Raiplay"
+    "piattaforma": "Raiplay",
+    "image": "https://i.ytimg.com/vi/_Qi0dH6Frj8/maxresdefault.jpg"
   },
   {
     "titolo": "Le fate ignoranti",
     "descrizione": "Una commedia romantica moderna e inclusiva.",
     "categoria": "Fiction italiana",
-    "piattaforma": "Netflix"
+    "piattaforma": "Netflix",
+    "image": "https://pad.mymovies.it/filmclub/2022/02/062/locandina.jpg"
   },
   {
     "titolo": "Luna Park",
     "descrizione": "Un thriller psicologico ambientato in un parco divertimenti.",
     "categoria": "Fiction italiana",
-    "piattaforma": "Raiplay"
+    "piattaforma": "Raiplay",
+    "image": "https://mr.comingsoon.it/imgdb/serietv/serie/3297/3297.jpg"
   },
   {
     "titolo": "I Medici",
     "descrizione": "La storia della famiglia Medici e del Rinascimento fiorentino.",
     "categoria": "Fiction italiana",
-    "piattaforma": "Raiplay"
+    "piattaforma": "Raiplay",
+    "image": "https://www.raiplay.it/dl/img/2019/11/22/1574441320040_1536x2048logo.JPG"
   },
   {
     "titolo": "Made in Italy",
     "descrizione": "La moda italiana degli anni '70 raccontata con passione.",
     "categoria": "Fiction italiana",
-    "piattaforma": "Raiplay"
+    "piattaforma": "Raiplay",
+    "image": "https://m.media-amazon.com/images/M/MV5BYjQ0NTdlYjItNTg2Zi00ZDY2LWFlNDMtYWYyMjNkNWYyMTlkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
   },
   {
     "titolo": "Doc – Nelle tue mani",
     "descrizione": "Un medico che perde la memoria ma non la passione per aiutare.",
     "categoria": "Fiction italiana",
-    "piattaforma": "Disney+"
+    "piattaforma": "Disney+",
+    "image": "https://www.raiplay.it/dl/img/2024/03/12/1710245334056_1536x2048_logo.jpg"
   },
   {
     "titolo": "Baby",
     "descrizione": "Roma, liceo, e le vite segrete di adolescenti che crescono troppo in fretta.",
     "categoria": "Fiction italiana",
-    "piattaforma": "Netflix"
+    "piattaforma": "Netflix",
+    "image": "https://pad.mymovies.it/filmclub/2018/11/281/locandina.jpg"
   },
   {
     "titolo": "I Cesaroni",
     "descrizione": "Una famiglia allargata tra risate, amore e vita quotidiana.",
     "categoria": "Fiction italiana",
-    "piattaforma": "Raiplay"
+    "piattaforma": "Raiplay",
+    "image": "https://upload.wikimedia.org/wikipedia/it/b/b9/ICesaroni.jpg"
   },
   {
     "titolo": "Friends",
     "descrizione": "La comfort series per eccellenza: ti sembrerà di essere al Central Perk con loro.",
     "categoria": "Se vuoi divertirti",
-    "piattaforma": "Disney+"
+    "piattaforma": "Disney+",
+    "image": "https://m.media-amazon.com/images/S/pv-target-images/c7fc75a423fc33698265a27fe446a41026f3c8642fd6c8706c43b897d2ffb3e6.jpg"
   },
   {
     "titolo": "New Girl",
     "descrizione": "Jess è la coinquilina che tutti vorremmo: stramba ma adorabile.",
     "categoria": "Se vuoi divertirti",
-    "piattaforma": "Disney+"
+    "piattaforma": "Disney+",
+    "image": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/5fcf3583-aba2-4936-993d-2bd35a28404a/compose?aspectRatio=1.78&format=webp&width=1200"
   },
   {
     "titolo": "Emily in Paris",
     "descrizione": "Moda, Parigi e situazioni assurde: perfetta per staccare.",
     "categoria": "Se vuoi divertirti",
-    "piattaforma": "Netflix"
+    "piattaforma": "Netflix",
+    "image": "https://m.media-amazon.com/images/M/MV5BODI5Y2YxM2UtZjhjYy00ZjM0LTg3NjQtYjQxMTBmZjM4ZTlkXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "titolo": "Glee",
     "descrizione": "Musica, inclusione e una dose di dramma adolescenziale.",
     "categoria": "Se vuoi divertirti",
-    "piattaforma": "Disney+"
+    "piattaforma": "Disney+",
+    "image": "https://m.media-amazon.com/images/M/MV5BMjUwYWRkMDItYTNkNy00OWQ0LWJhYTQtNzI3MWFmMmI3ZDQ5XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "titolo": "Jane the Virgin",
     "descrizione": "Telenovela ironica, moderna e tenerissima.",
     "categoria": "Se vuoi divertirti",
-    "piattaforma": "Amazon Prime Video"
+    "piattaforma": "Amazon Prime Video",
+    "image": "https://m.media-amazon.com/images/I/71DwQt9xD1L._UF1000,1000_QL80_.jpg"
   },
   {
     "titolo": "Non ho mai...",
     "descrizione": "La crescita di una ragazza indiana americana tra caos e cuore.",
     "categoria": "Se vuoi divertirti",
-    "piattaforma": "Netflix"
+    "piattaforma": "Netflix",
+    "image": "https://www.orientaserie.it/wp-content/uploads/2022/09/Never_Have_I_Ever_S2_Poster_01.webp"
   },
   {
     "titolo": "How I Met Your Mother",
     "descrizione": "Un viaggio nella New York dell'amicizia e dell'amore.",
     "categoria": "Se vuoi divertirti",
-    "piattaforma": "Disney+"
+    "piattaforma": "Disney+",
+    "image": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/559b4b05-9c8e-4e19-89d2-30a74febb0c0/compose?aspectRatio=1.78&format=webp&width=1200"
   },
   {
     "titolo": "Brooklyn Nine-Nine",
     "descrizione": "Un distretto di polizia dove si ride, si ride tanto.",
     "categoria": "Se vuoi divertirti",
-    "piattaforma": "Disney+"
+    "piattaforma": "Disney+",
+    "image": "https://m.media-amazon.com/images/M/MV5BNzBiODQxZTUtNjc0MC00Yzc1LThmYTMtN2YwYTU3NjgxMmI4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
   },
   {
     "titolo": "Shameless",
     "descrizione": "La famiglia Gallagher tra disastri, amore e resistenza urbana.",
     "categoria": "Se vuoi divertirti",
-    "piattaforma": "Disney+"
+    "piattaforma": "Disney+",
+    "image": "https://www.orientaserie.it/wp-content/uploads/2024/06/Shameless.jpg"
   },
   {
     "titolo": "Valeria",
     "descrizione": "Scrittrice in crisi e amiche inseparabili nella Madrid contemporanea.",
     "categoria": "Se vuoi divertirti",
-    "piattaforma": "Netflix"
+    "piattaforma": "Netflix",
+    "image": "https://m.media-amazon.com/images/M/MV5BYWE5M2U2NmItMTUwMy00Yzc1LTk5YmItY2NmOTBhMzM3MDA4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
   },
   {
     "titolo": "Odio il Natale",
     "descrizione": "Una commedia romantica natalizia tutta italiana.",
     "categoria": "Se vuoi divertirti",
-    "piattaforma": "Netflix"
+    "piattaforma": "Netflix",
+    "image": "https://pad.mymovies.it/filmclub/2022/05/090/locandina.jpg"
   },
   {
     "titolo": "La fantastica signora Maisel",
     "descrizione": "Una donna che scopre il suo talento per la comicità negli anni '50.",
     "categoria": "Se vuoi divertirti",
-    "piattaforma": "Amazon Prime Video"
+    "piattaforma": "Amazon Prime Video",
+    "image": "https://pad.mymovies.it/filmclub/2023/03/064/locandina.jpg"
   },
   {
     "titolo": "Hollywood",
     "descrizione": "Il sogno di Hollywood negli anni '40 con un twist inclusivo.",
     "categoria": "Se vuoi divertirti",
-    "piattaforma": "Netflix"
+    "piattaforma": "Netflix",
+    "image": "https://www.dejavublog.it/wp-content/uploads/2020/05/hollywood-wide.jpg"
   },
   {
     "titolo": "Me You Her",
     "descrizione": "Una commedia romantica moderna su relazioni non convenzionali.",
     "categoria": "Se vuoi divertirti",
-    "piattaforma": "Netflix"
+    "piattaforma": "Netflix",
+    "image": "https://images.justwatch.com/poster/4830876/s718/you-me-her.jpg"
   },
   {
     "titolo": "Suburra",
     "descrizione": "Roma criminale, tra politica, Chiesa e potere.",
     "categoria": "Un po' d'azione",
-    "piattaforma": "Netflix"
+    "piattaforma": "Netflix",
+    "image": "https://pad.mymovies.it/filmclub/2019/12/021/locandina.jpg"
   },
   {
     "titolo": "Lost",
     "descrizione": "Sopravvivenza e misteri: un'isola che ti cattura e non ti lascia più.",
     "categoria": "Un po' d'azione",
-    "piattaforma": "Disney+"
+    "piattaforma": "Disney+",
+    "image": "https://www.hallofseries.com/wp-content/uploads/2018/05/lost-1.jpg"
   },
   {
     "titolo": "Prison Break",
     "descrizione": "Evasioni impossibili e fratelli uniti fino alla fine.",
     "categoria": "Un po' d'azione",
-    "piattaforma": "Disney+"
+    "piattaforma": "Disney+",
+    "image": "https://static.posters.cz/image/750/3057.jpg"
   },
   {
     "titolo": "La Casa di Carta",
     "descrizione": "Il colpo del secolo con la banda più famosa della TV.",
     "categoria": "Un po' d'azione",
-    "piattaforma": "Netflix"
+    "piattaforma": "Netflix",
+    "image": "https://www.orientaserie.it/wp-content/uploads/2022/08/IT_LCDP_S5_Main_Vertical_RGB_PRE-691x1024.jpg"
   },
   {
     "titolo": "Lucifer",
     "descrizione": "Il diavolo abbandona l'Inferno per risolvere crimini... e sentimenti.",
     "categoria": "Un po' d'azione",
-    "piattaforma": "Disney+"
+    "piattaforma": "Disney+",
+    "image": "https://m.media-amazon.com/images/M/MV5BYzMwNzI3MWItZTIzYi00YjkxLThhOWQtYmUwYjg4NWM0ZWI1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
   },
   {
     "titolo": "Sense8",
     "descrizione": "Otto persone collegate da un legame psichico potentissimo.",
     "categoria": "Un po' d'azione",
-    "piattaforma": "Netflix"
+    "piattaforma": "Netflix",
+    "image": "https://langolorecensioni.wordpress.com/wp-content/uploads/2018/05/sense8.jpg"
   },
   {
     "titolo": "Orphan Black",
     "descrizione": "Cloni, segreti e una protagonista camaleontica.",
     "categoria": "Un po' d'azione",
-    "piattaforma": "Disney+"
+    "piattaforma": "Disney+",
+    "image": "https://www.ibs.it/images/4020628806392_0_0_536_0_75.jpg"
   },
   {
     "titolo": "Orange is the New Black",
     "descrizione": "Donne, prigione e storie complesse: un mix esplosivo.",
     "categoria": "Un po' d'azione",
-    "piattaforma": "Netflix"
+    "piattaforma": "Netflix",
+    "image": "https://m.media-amazon.com/images/M/MV5BMWE0ZTE1M2MtY2U5Ni00NTJjLTk5N2QtZDIyMjk3Y2ZiYzNiXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "titolo": "The Bear",
     "descrizione": "Un cuoco geniale alle prese con il caos e la rinascita di una cucina.",
     "categoria": "Un po' d'azione",
-    "piattaforma": "Netflix"
+    "piattaforma": "Netflix",
+    "image": "https://pad.mymovies.it/filmclub/2023/08/048/locandina.jpg"
   },
   {
     "titolo": "Berlin",
     "descrizione": "Il prequel de La Casa di Carta con un tocco più elegante e romantico.",
     "categoria": "Un po' d'azione",
-    "piattaforma": "Netflix"
+    "piattaforma": "Netflix",
+    "image": "https://mr.comingsoon.it/imgdb/serietv/serie/3551/3551.jpg"
   },
   {
     "titolo": "Vis a Vis",
     "descrizione": "Donne in carcere tra durezza, emozione e redenzione.",
     "categoria": "Un po' d'azione",
-    "piattaforma": "Netflix"
+    "piattaforma": "Netflix",
+    "image": "https://m.media-amazon.com/images/M/MV5BMWU2ZWE4NTktMTM4Ni00OTVkLTk3ZDAtMTc2YjY1NmZmYTlkXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "titolo": "Inventing Anna",
     "descrizione": "La storia vera di Anna Delvey, la truffatrice di New York.",
     "categoria": "Un po' d'azione",
-    "piattaforma": "Netflix"
+    "piattaforma": "Netflix",
+    "image": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p19645932_b_v13_ab.jpg"
   },
   {
     "titolo": "The Originals",
     "descrizione": "I vampiri originali tornano a New Orleans per reclamare la loro città.",
     "categoria": "Un po' d'azione",
-    "piattaforma": "Disney+"
+    "piattaforma": "Disney+",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIg5j4zJ41T2nEHw8Z3Ul0SZVTiytBpCvq4ljaYm3VHsfwUjAZJbASn01VmQrEI9QhH7EAsunkNAMLHDBMwKMn_BGk2Mk9kxfKDlWKlXycVp0dhuoyrLWBCcSgYtjoJXIOnEKuODZSn4o/s1600/The-Originals1.jpg"
   },
   {
     "titolo": "Le regole del delitto perfetto",
     "descrizione": "Un thriller psicologico che ti tiene con il fiato sospeso.",
     "categoria": "Un po' d'azione",
-    "piattaforma": "Netflix"
+    "piattaforma": "Netflix",
+    "image": "https://thrillernord.it/wp-content/uploads/2021/01/le-regole-del-delitto-perfetto-ogni-martedi-alle-21-1280x720-e1610913916174.jpg"
   },
   {
     "titolo": "Violetta",
     "descrizione": "Musica, amore e crescita in stile Disney.",
     "categoria": "Tornare bambini",
-    "piattaforma": "Disney+"
+    "piattaforma": "Disney+",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Disney_Violetta_logo.svg/800px-Disney_Violetta_logo.svg.png"
   },
   {
     "titolo": "Sonny tra le stelle",
     "descrizione": "Un ragazzo che sogna di diventare una star della musica.",
     "categoria": "Tornare bambini",
-    "piattaforma": "Disney+"
+    "piattaforma": "Disney+",
+    "image": "https://upload.wikimedia.org/wikipedia/it/7/71/Sonny_tra_le_stelle%2C_seconda_stagione.jpg"
   },
   {
     "titolo": "Hannah Montana",
     "descrizione": "La doppia vita di Miley Stewart e la sua star Hannah Montana.",
     "categoria": "Tornare bambini",
-    "piattaforma": "Disney+"
+    "piattaforma": "Disney+",
+    "image": "https://m.media-amazon.com/images/M/MV5BZTkzMDY2MzEtZmViZC00ZDY0LWFmYjgtNTVmN2JmMmVkNzRkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
   },
   {
     "titolo": "I Maghi di Waverly",
     "descrizione": "Tre fratelli che imparano a usare la magia in un ristorante.",
     "categoria": "Tornare bambini",
-    "piattaforma": "Disney+"
+    "piattaforma": "Disney+",
+    "image": "https://pad.mymovies.it/filmclub/2009/06/101/locandina.jpg"
   },
   {
     "titolo": "Zack e Cody al Grand Hotel",
     "descrizione": "Due gemelli che vivono in un hotel di lusso con la loro madre.",
     "categoria": "Tornare bambini",
-    "piattaforma": "Disney+"
+    "piattaforma": "Disney+",
+    "image": "https://pad.mymovies.it/filmclub/2009/06/095/locandina.jpg"
   }
 ]
